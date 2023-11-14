@@ -7,5 +7,5 @@ Para gerar a documentação em swagger, primeiramente o projeto em Go já deve e
 Com as anotações feitas, basta executar o seguinte comando na raiz do projeto Go (OBS: É necessário ter o docker instalado na máquina)
 
 ```
-docker run --rm -it -v $(pwd):/work ruanlas/go-swagger-generator:1.0.0 swag init -g <path_to_main_file>
+docker run --rm -it -v $(pwd):/work ruanlas/go-swagger-generator:v1.0.0 swag init -g <path_to_main_file>
 ```
